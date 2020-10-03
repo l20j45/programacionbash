@@ -6,7 +6,7 @@
 
 echo "ingresa tu edad: "
 read edad
-if test $edad > 18
+if test $edad -gt  18
     then 
         echo " eres mayor de edad"
     else
